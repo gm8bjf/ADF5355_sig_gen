@@ -1,6 +1,6 @@
 //***********************************************************************************************************************************************
 //*******Code to use an ADF5355 as a signal generator from 52 to 13600 MHz based on that of DD7LP Christian Petersen for the ADF4351, (See 
-//*******credits below). The code has been ported to run on a WeMos Mini SAMD21 M0 32 bit ARM Cortex board. This was necessary to take advantage
+//*******credits below). The code has been ported to run on a Maple Mini 32 bit ARM Cortex board. This was necessary to take advantage **********
 //*******of the frequency resolution capabilities of the ADF5355. The display is an I2C OLED type. Brian Flynn GM8BJF. 1 November 2018 **********
 //***********************************************************************************************************************************************
 //***********************************************************************************************************************************************
@@ -13,7 +13,7 @@
 //***********************************************************************************************************************************************
 
 #include <SPI.h>
-#include <RotaryEncoder.h>   //****************************** Rotary encoder: https://github.com/brianlow/Rotary
+#include <RotaryEncoder.h>   //***************//
 #include <Wire.h>            // I2C library //
 #include <Adafruit_SSD1306.h>  // device driver for 128x64 SPI
 #include <Adafruit_GFX.h>               //************** https://github.com/adafruit/Adafruit-GFX-Library

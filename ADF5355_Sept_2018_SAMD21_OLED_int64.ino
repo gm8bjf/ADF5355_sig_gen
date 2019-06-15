@@ -13,7 +13,7 @@
 //***********************************************************************************************************************************************
 
 #include <SPI.h>
-#include <RotaryEncoder.h>   //****************************** Rotary encoder: https://github.com/brianlow/Rotary
+#include <RotaryEncoder.h>   //**********************//
 #include <Wire.h>            // I2C library //
 #include <Adafruit_SSD1306.h>  // device driver for 128x64 SPI
 #include <Adafruit_GFX.h>               //************** https://github.com/adafruit/Adafruit-GFX-Library

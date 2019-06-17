@@ -1,7 +1,7 @@
 //***********************************************************************************************************************************************
 //*******Code to use an ADF5355 as a signal generator from 52 to 13600 MHz based on that of DD7LP Christian Petersen for the ADF4351, (See 
 //*******credits below). The code has been ported to run on a WeMos Mini SAMD21 M0 32 bit ARM Cortex board. This was necessary to take advantage
-//*******of the frequency resolution capabilities of the ADF535. The display is an I2C OLED type. Brian Flynn GM8BJF. 1 November 2018 ***********
+//*******of the frequency resolution capabilities of the ADF5355. The display is an I2C OLED type. Brian Flynn GM8BJF. 1 November 2018 ***********
 //***********************************************************************************************************************************************
 //***********************************************************************************************************************************************
 // ****** Modifikation der Routinen vorgesehen für ADF4351 DDS bearbeitet von DD7LP Christian Petersen www.darc-husum.de im Februar    2017 *****
